@@ -141,3 +141,41 @@
     color:rgba(255, 255, 255, 1);
     border:none;
 }
+/* Main-section */
+.main{
+    max-width: 1140px;
+    margin:0px auto;
+    margin-top:210px;
+}
+.main-section
+{
+    width:100%;
+    display: flex;
+    column-gap: 60px;
+
+ align-items: center;
+}
+.main-image
+{
+    width:50%;
+}
+.main-div
+{
+    width:50%;
+    height: 521px;
+}
+.main-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.main-nav{
+    margin-top:30px;
+}
+.main-nav ul li{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
