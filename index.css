@@ -1,0 +1,406 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+.noto-serif-style {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Header section */
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1140px;
+    margin:0px auto;
+}
+.header img{
+    max-width: 135px;
+}
+.nav ul
+{
+    display: flex;
+    gap:48px;
+    
+    
+}
+.nav ul li{
+    list-style: none;
+    
+}
+.header-link
+{
+    text-decoration: none;
+    color:rgba(137, 135, 161, 1);
+    
+}
+.head-one
+{
+    font-weight: 700;
+    color:black;
+}
+.btn-primary
+{
+    font-size:16px;
+}
+
+/* header-container section */
+.header-container
+{
+    max-width: 1140px;
+    margin:0px auto;
+    display: flex;
+    align-items: center;
+    margin-top: 128px;
+}
+.first-title-des
+{
+    width: 50%;
+
+}
+.main-image
+{
+    width: 50%;
+}
+.main-title
+{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 5px;
+    
+}
+.main-des
+{
+    color:rgba(137, 135, 161, 1);
+     font-size: 22px;
+}
+.span
+{
+    color: rgba(233, 90, 8, 1);
+}
+/* Banner-Card */
+.banner
+{
+    max-width: 1140px;
+    margin:0 auto;
+    margin-top: 112px;
+   
+}
+.banner-items
+{
+   
+   max-width: 100%;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.banner-title
+{
+    
+    width: 100%;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+.banner-span
+{
+    color:rgba(233, 90, 8, 1);
+}
+.banner-des
+{
+    width:888px;
+    font-size: 22px;
+    font-weight: normal;
+    color:rgba(0, 0, 0, 0.5);
+    margin:0 auto;
+}
+.banner-card
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    row-gap: 30px;
+}
+.card
+{
+    text-align: center;
+}
+.name
+{
+    font-size: 22px;
+    font-weight: 500;
+    margin:26px 0px 10px 0px;
+    
+}
+.price
+{
+    font-size: 22px;
+    font-weight:bold;
+    margin-top:0px;
+}
+.btn{
+    padding:26px 50px;
+    background-color: rgba(233, 90, 8, 1);
+    width:98%;
+    font-weight: 600;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+    border:none;
+}
+/* Main-section */
+.main{
+    max-width: 1140px;
+    margin:0px auto;
+    margin-top:210px;
+    /* background-image:url("./assets/trusted-badge.png");
+    background-repeat: no-repeat;
+    background-size: 185px;
+    background-position: top center; */
+}
+.main-section-div
+{
+    position: relative;
+
+}
+.section-img
+{
+    position: absolute;
+    height:150px;
+    width:150px;
+    top:-70px;
+    right:-70px;
+}
+.main-section
+{
+    width:100%;
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+   /* background-image:url("./assets/trusted-badge.png");
+    background-repeat:no-repeat;
+    background-size: 280px;
+    background-position: top center; */
+}
+
+.main-image
+{
+    width:100%;
+}
+.main-div
+{
+    width:50%;
+    height: 521px;
+}
+.main-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.main-nav{
+    margin-top:30px;
+}
+.main-nav ul li{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+/* New Section */
+.new-section
+{
+    margin-top:133px;
+    text-align: center;
+}
+.title-of-sections
+{
+    font-size: 50px;
+    font-weight:bold;
+    margin-bottom:16px;
+}
+.sections-span
+{
+    color:rgba(233, 90, 8, 1);
+}
+.des-of-sections
+{
+    margin:0px auto;
+     color:rgba(0, 0, 0, 0.5);
+     font-size: 22px;
+}
+/* Banner-setiono-last */
+.latest-section
+{
+    max-width: 1140px;
+    margin:0px auto;
+    display:flex;
+    gap:28px;
+    margin-top:120px;
+}
+
+.part1
+{
+    width:367px;
+    margin-top:0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius:14px;
+   
+}
+.part2
+{
+    width:753px;
+    background-image: url("./assets/deal-zabo.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:450px;
+    
+
+}
+.first-section
+{
+   
+    background-image: url("./assets/deal-bloom.png");
+    background-repeat: no-repeat;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    
+    
+   
+}
+.second-section
+{
+    background-image:url("./assets/deal-ana.png");
+     background-repeat: no-repeat;
+    height:100%;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.part1-title
+{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 1);
+   
+}
+.part1-des
+{
+    font-size: 16px;
+   color:rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
+
+/* join section */
+.join-section
+{
+    margin:0px;
+    width:100%;
+    background-image:url("./assets/news-letter-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:535px;
+    margin-top:120px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.join-title
+{
+    font-size: 50px;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom:23px;
+    text-align: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input
+{
+    height:50px;
+    width:644px;
+    padding-left: 20px;
+    margin-right:0px;
+    border: none;
+  
+
+}
+.join-btn
+{
+    height:50px;
+    width:185px;
+    margin-left: 0px;
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(233, 90, 8, 1); 
+    border: none;
+
+}
+/* Footer-section */
+.footer-section
+{
+    width:100%;
+}
+.footer
+{
+    max-width: 1120px;
+    margin:50px auto;
+    display: flex;
+    gap:110px;
+}
+.footer-nav ul li{
+    list-style: none;
+      margin-bottom: 32px;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.5);
+  
+}
+.first-footer{
+    max-width: 360px;
+}
+.first-footer-des
+{
+    font-size: 22px;
+    margin-top:15px;
+    color:rgba(0, 0, 0, 0.5);
+}
+.second-footer
+{
+     max-width: 85px;
+}
+.third-footer
+{
+     max-width: 128px;
+   
+}
+.fourth-footer
+ { 
+    max-width: 216px;
+    display:flex;
+    gap: 24px;
+    
+
+}
+.fourth-footer img{
+    max-height: 36px;
+    max-width: 36px;
+}
+
+/* Media query */
+@media screen and(max-width:576px)
+{
+}
